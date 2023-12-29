@@ -1,10 +1,45 @@
 .logo{
-    height: 100px;  
+    height: 200px;  
+     transition: transform 0.2s;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     border-style: solid;
+     border-width: 3px;
+}
+.logo:hover{
+    transform: scale(1.2);
 }
 table{
     border-collapse: collapse;
-    width: 100%;
+    border-width: 10px;
+    
+    font-size: x-large;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 .website-name{
     font-size: 30px;
+}
+p{
+    font-size: x-large;
+}
+.first-row{
+    height: 250px;
+    width: 300px;
+}
+body{
+   padding-bottom: 500px;
+   background-color: peachpuff;
+
+}
+.moving-tag{
+    font-size: xx-large;
+    font-family: Dancing Script,New Roman;
+    height: 100%;
+    width: 100%;
+}
+.first{
+    height: 200px;
+    margin-top: 50px;
 }
