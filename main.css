@@ -6,17 +6,17 @@
      margin-right: auto;
      border-style: solid;
      border-width: 3px;
+     border: none; 
 }
 .logo:hover{
     transform: scale(1.2);
 }
-table{
+.table{
     border-collapse: collapse;
-    border-width: 10px;
-    
+    border-width: 1px;
     font-size: x-large;
     text-align: center;
-    font-family:Verdana, Geneva, Tahoma, sans-serif
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 .website-name{
     font-size: 30px;
@@ -30,16 +30,18 @@ p{
 }
 body{
    padding-bottom: 500px;
-   background-color: peachpuff;
-
+   background-color:rgb(248, 248, 255);
 }
 .moving-tag{
+    margin-top: 30px;
     font-size: xx-large;
     font-family: Dancing Script,New Roman;
-    height: 100%;
     width: 100%;
 }
 .first{
     height: 200px;
     margin-top: 50px;
+}
+*{
+    text-decoration: none;
 }
