@@ -42,6 +42,6 @@ h1{
 body{
     background-color:rgb(248, 248, 255);
 }
-.name:visited{
+.name:active{
     color: black;
 }
