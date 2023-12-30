@@ -45,3 +45,11 @@ body{
 .name:active{
     color: black;
 }
+  .page{
+    background-image: url(premium_photo-1681487916420-8f50a06eb60e.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  a:link{
+    color: red;
+}
