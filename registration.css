@@ -48,8 +48,11 @@ body{
   .page{
     background-image: url(premium_photo-1681487916420-8f50a06eb60e.avif);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
   }
   a:link{
     color: red;
+}
+.note{
+    font-size: 120%;
 }
