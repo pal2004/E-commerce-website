@@ -87,3 +87,10 @@ table,th,td{
 th,td{
     background-color: palegoldenrod;
 }
+a{
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+    color: rgb(148, 148, 148);
+}

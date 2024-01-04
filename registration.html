@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>One More Page</title>
     <link rel="stylesheet" href="registration.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -69,6 +69,11 @@
         alert("Name can't be blank");
         return false;
       }
+      else if(name.length<6)
+      {
+          alert("Name should atleast contain 6 letters");
+            return false;
+      }
       else{
         for( i=0;i<name.length;i++)
     {
@@ -77,11 +82,9 @@
         if((cc>=65 && cc<=90) || (cc>=97 && cc<=122))
         {
         }
-        else
-        {
-            alert("Include alphabets only");
-            return false;
-            break;
+        else{
+          alert("Include alphabets only");
+          return false;
         }
     }
   }
@@ -103,7 +106,7 @@
     alert("Password must be at least 6 characters long.");
     return false;
   }
-  if(phno.length<10)
+  if(phno.length<10 || phno.length>10)
   {
    alert("Not a valid phone number.");
    return false;

@@ -1,18 +1,38 @@
 .logo{
-    height: 200px;  
+    height: 200px; 
      transition: transform 0.2s;
      display: block;
-     margin-left: auto;
-     margin-right: auto;
+     margin: auto;
+     border-style: solid;
 }
 .logo:hover{
-    transform: scale(1.2);
+    transform: scale(1.19);
 }
-.table{
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.first{
+    height: 98vh;
+    width: 99vw;
+    background-image: url(images/mainbg.jpg);
+}
+.moving-tag{
+    color: whitesmoke;
+    font-family: Dancing Script,New Roman;
+    font-size: 100px;
+    position: absolute;
+    top: 39vh;
+}
+table{
     font-size: x-large;
     text-align: center;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    top: 100vh;
 }
+
 .website-name{
     font-size: 30px;
 }
@@ -25,21 +45,10 @@ p{
 }
 body{
    padding-bottom: 500px;
-   background-color:rgb(248, 248, 255);
+   background-color:white;
 }
-.moving-tag{
-    margin-top: 30px;
-    font-size: xx-large;
-    font-family: Dancing Script,New Roman;
-    width: 100%;
-}
-.first{
-    height: 200px;
-    margin-top: 50px;
-}
-*{
-    text-decoration: none;
-}
+
+
 table,th,td{
     padding: 25px;
     border: 2px solid black;
@@ -47,7 +56,18 @@ table,th,td{
 }
 .note{
     font-size: 120%;
- color: red;
- 
+    color: red;
 }
-tr:hover {background-color: #D6EEEE;}
+th:hover{
+    background-color: powderblue;
+}
+td:hover{
+    background-color: rgb(255, 255, 149);
+}
+a{
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+    color: rgb(148, 148, 148);
+}
